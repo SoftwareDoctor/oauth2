@@ -24,13 +24,13 @@ Se la firma del token corrisponde alla chiave pubblica ricevuta, l'accesso viene
 
 ## Tecnologie utilizzate
 
-- **Spring Boot**: Framework utilizzato per sviluppare le applicazioni sia dell'Authorization Server che del Resource Server, che semplifica la configurazione e lo sviluppo.
-- **OAuth2**: Protocollo di autorizzazione utilizzato per gestire l'autenticazione e autorizzazione dei client.
-- **JWT (JSON Web Token)**: Formato di token utilizzato per gestire l'autenticazione stateless tra il client e il server.
-- **RSA**: Algoritmo di cifratura utilizzato per firmare e verificare i token JWT.
-- **Spring Security**: Fornisce i meccanismi di sicurezza per implementare la gestione dell'autenticazione e la protezione delle risorse.
-- **Docker**: Utilizzato per containerizzare le applicazioni, semplificando il processo di distribuzione e avvio.
-- **Docker Compose**: Strumento che consente di gestire più container Docker, utilizzato per orchestrare l'esecuzione dei vari componenti (Authorization Server e Resource Server).
+- **Spring Boot**
+- **OAuth2**
+- **JWT (JSON Web Token)**
+- **RSA**
+- **Spring Security**
+- **Docker**
+- **Docker Compose**
 
 # Autore
 
