@@ -1,0 +1,24 @@
+services:
+  auth-server:
+    build: ./authserver
+    container_name: auth-server
+    ports:
+      - "8080:8080"
+    networks:
+      - oauth-network
+
+  resource-server:
+    build: ./resourceserver
+    container_name: resource-server
+    ports:
+      - "8081:8081"
+    environment:
+      SPRING_SECURITY_OAUTH2_RESOURCESERVER_JWT_ISSUER_URI: http://auth-server:8080
+    depends_on:
+      - auth-server
+    networks:
+      - oauth-network
+
+networks:
+  oauth-network:
+    driver: bridge

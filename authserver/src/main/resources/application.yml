@@ -1,0 +1,10 @@
+#server:
+#  port: 9000  # L'Authorization Server gira sulla porta 9000
+#
+#spring:
+#  security:
+#    oauth2:
+#      authorization-server: # Configurazione del server di autorizzazione
+#        issuer-url: http://localhost:9000 # URL base del server di autorizzazione
+
+
