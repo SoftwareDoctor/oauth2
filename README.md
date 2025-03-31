@@ -1,7 +1,5 @@
 # OAuth2 Authorization e Resource Server
 
-## Cosa è stato implementato
-
 In questo progetto sono stati implementati due componenti principali:
 
 ### Authorization Server
